@@ -20,12 +20,16 @@ Carousel/Gallery Block for the [Editor.js](https://editorjs.io).
 1. Upload folder `dist` from repository
 2. Add `dist/bundle.js` file to your page.
 
+### Classical installing
+
+1. yarn add @vietlongn/editorjs-carousel or npm i @vietlongn/editorjs-carousel 
+
 ## Usage
 
 Add a new Tool to the `tools` property of the Editor.js initial config.
 
 ```javascript
-import Carousel from 'Carousel';
+import Carousel from '@vietlongn/editorjs-carousel';
 
 // or if you inject ImageTool via standalone script
 const Carousel = window.Carousel;
